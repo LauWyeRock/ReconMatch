@@ -10,9 +10,6 @@ from fuzzywuzzy import fuzz, process
 from io import BytesIO
 from datetime import datetime
 
-# scope = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
-# creds = ServiceAccountCredentials.from_json_keyfile_name("C:/Users/wyero/Downloads/Tinvio/vertex_ai_key.json", scope)
-# client = gspread.authorize(creds)
 
 fuzzy_threshold = 80
 current_user = "Wye Rock"
